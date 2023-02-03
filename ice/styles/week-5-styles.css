@@ -1,0 +1,36 @@
+
+:root {
+    --main-background: #737373;
+    --icon-border: #444444;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    min-height: 65%;
+    background-image: url(../images/w05_circles.jpg);
+    background-size: 100% 100%;
+
+}
+
+main {
+    background-color: var(--main-background);
+    background-size:  100%;
+    text-align: center;
+    align-content: center;
+}
+
+main img {
+    border: 5px solid var(--icon-border);
+    border-radius: 50%;
+    max-height: 180px;
+    display: inline-block;
+    margin: 15px 30px;
+
+    
+}
+
