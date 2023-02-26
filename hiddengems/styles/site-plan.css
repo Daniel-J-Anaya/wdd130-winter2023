@@ -111,7 +111,7 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
-
+  justify-content: space-around;
 }
 nav a {
   padding:1em;
@@ -176,3 +176,16 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+#home, #contribute, #about, #peru, #notebook, #site-logo, #self-portrait {
+  width: 50%;
+}
+
+#home-map {
+  width: 70%;
+}
+
+.neon-bg {
+  width: 50%;
+}
+
